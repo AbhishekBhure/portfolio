@@ -1,0 +1,16 @@
+@media only screen and (max-width:450px) {
+    
+    .slider-card{
+    padding: 10px 20px;
+    }
+
+    .p-quot{
+        font-size: 30px;
+    }
+    .card-p{
+        width: 250px;
+        padding: 0px 5px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
