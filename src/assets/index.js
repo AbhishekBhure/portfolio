@@ -34,10 +34,12 @@ import TheLoosersCompany from "./company/TheLoosersCompany.png";
 import al from "./al.png";
 import t from "./t.png";
 import carrent from "./carrent.png";
+import newsapp from "./newsapp.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  newsapp,
   logo,
   logoAB,
   logoAB2,

@@ -5,6 +5,7 @@ import {
   webicon,
   creator,
   web,
+  newsapp,
   javascript,
   typescript,
   html,
@@ -202,11 +203,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "farmar-motion",
+        name: "farmarmotion",
         color: "pink-text-gradient",
       },
       {
-        name: "tailwind-css",
+        name: "tailwindcss",
         color: "red-text-gradient",
       },
     ],
@@ -214,25 +215,29 @@ const projects = [
     source_code_link: "https://github.com/AbhishekBhure/t-shirt",
   },
   {
-    name: "Trip Guide",
+    name: "NewsDaily",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive news website that lets user to read daily news article.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "bootstrap",
+        color: "red-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: newsapp,
+    source_code_link: "https://github.com/AbhishekBhure/WebNewsApp",
   },
 ];
 
