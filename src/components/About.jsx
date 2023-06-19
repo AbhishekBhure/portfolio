@@ -67,9 +67,12 @@ const About = () => {
           <span className="text-white">Full Stack Developer</span> with a drive
           for creating Web-related projects that make a meaningful impact. With
           hands-on experience over several projects, I have honed my skills in
-          ReactJs, NodeJs, ExpressJs, MongoDB. I am dedicated to delivering
-          visually stunning designs, efficient coding, and seamless user
-          experiences. <br />
+          <span className="text-white">
+            {" "}
+            ReactJs, NodeJs, ExpressJs, MongoDB.
+          </span>{" "}
+          I am dedicated to delivering visually stunning designs, efficient
+          coding, and seamless user experiences. <br />
           What sets me apart is my ability to combine creativity with strategic
           thinking. I approach each project with a keen eye for detail and a
           deep understanding of my clients&apos;objectives. By collaborating
