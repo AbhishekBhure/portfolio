@@ -25,6 +25,7 @@ import {
   threejs,
   al,
   t,
+  test01,
 } from "../assets";
 
 export const navLinks = [
@@ -132,18 +133,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working with Abhishek on our ecommerce web application was a game-changer. His expertise, dedication, and seamless teamwork elevated our project to new heights. Highly recommended!.",
+    name: "Pranav Chivate",
+    designation: "ITO/Cloud Platforms",
+    company: "DXC Technology",
+    image: test01,
+    linkedInUrl: "https://www.linkedin.com/in/pranav-chivate",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a web developer who truly cares about their clients' success like Abhishek does.",
+    name: "Pranav Chivat",
+    designation: "",
+    company: "",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {

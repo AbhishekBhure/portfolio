@@ -38,7 +38,10 @@ import newsapp from "./newsapp.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import test01 from "./test01.jpeg";
+
 export {
+  test01,
   newsapp,
   logo,
   logoAB,
