@@ -31,6 +31,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import TheLoosersCompany from "./company/TheLoosersCompany.png";
 
+import youtube from "./youtubeClone.png";
+import dhanvantari from "./dhanvantari.png";
 import al from "./al.png";
 import t from "./t.png";
 import carrent from "./carrent.png";
@@ -39,8 +41,16 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import test01 from "./test01.jpeg";
+import hru from "./hru.jpg";
+import pratik from "./pratik.jpg";
+import sanj from "./sanj.jpg";
 
 export {
+  sanj,
+  pratik,
+  hru,
+  dhanvantari,
+  youtube,
   test01,
   newsapp,
   logo,

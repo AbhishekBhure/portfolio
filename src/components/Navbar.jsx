@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logoAB2, menu, close, logo } from "../assets";
 
-const Navbar = () => {
+const Navbar = ({ icon }) => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState("");
   return (
@@ -38,6 +38,7 @@ const Navbar = () => {
               <a className="nav-ul" href={`#${link.id}`}>
                 {link.title}
               </a>
+              <span>{icon}</span>
             </li>
           ))}
         </ul>

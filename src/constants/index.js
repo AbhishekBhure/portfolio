@@ -26,6 +26,11 @@ import {
   al,
   t,
   test01,
+  youtube,
+  dhanvantari,
+  hru,
+  pratik,
+  sanj,
 } from "../assets";
 
 export const navLinks = [
@@ -133,6 +138,15 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
+      "As an Intern at theLoosersCompany, Abhishek always had a positive approarch to each and every project that we worked on and he is always seeking opportunities to expand his skills and knowledge. He has a self-learnig attitude that every team needs!.",
+    name: "Hrushikesh Desai",
+    designation: "Sr Mobile Developer",
+    company: "TheLoosersCompany",
+    image: hru,
+    linkedInUrl: "https://www.linkedin.com/in/hrushikeshdesaihd",
+  },
+  {
+    testimonial:
       "Working with Abhishek on our ecommerce web application was a game-changer. His expertise, dedication, and seamless teamwork elevated our project to new heights. Highly recommended!.",
     name: "Pranav Chivate",
     designation: "ITO/Cloud Platforms",
@@ -142,31 +156,56 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Abhishek does.",
-    name: "Pranav Chivat",
-    designation: "",
-    company: "",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Working with Abhishek on our ecommerce web application was a game-changer. His expertise, dedication, and seamless teamwork elevated our project to new heights. Highly recommended!.",
+    name: "Pratik Desai",
+    designation: "Studying MCA ",
+    company: "GIT College, Belgaum",
+    image: pratik,
+    linkedInUrl: "https://www.linkedin.com/in/pratik-desai-17b7111aa/",
   },
+
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "As a self thought developer Abhishek always gave his 100% effort to learn and expand his skill set. He has excellent time managment skills and I couldn't recommend him more for any business or like minded indiviuals looking for new talent!.",
+    name: "Sanjana Kabadi",
+    designation: "Data Scientist",
+    company: "Dun & Bradstreet",
+    image: sanj,
+    linkedInUrl: "https://www.linkedin.com/in/sanjana-kabadi-58275a130/",
   },
 ];
 
 const projects = [
+  {
+    name: "Dhanvantari",
+    description:
+      "A Ecommerce web application build for an client using Mern stack.(on going)",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mern",
+        color: "red-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dhanvantari,
+    source_code_link: "https://github.com/thelooserscompany/altaj-website",
+    live: "https://demodhanvantari.com",
+  },
   {
     name: "AL-Taj",
     description:
@@ -192,6 +231,37 @@ const projects = [
     image: al,
     source_code_link: "https://github.com/thelooserscompany/altaj-website",
   },
+
+  {
+    name: "NewsDaily",
+    description:
+      "A comprehensive news website that let's user to read daily news article.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "red-text-gradient",
+      },
+      {
+        name: "newsApi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: newsapp,
+    source_code_link: "https://github.com/AbhishekBhure/WebNewsApp",
+    live: "https://newsdaily99.netlify.app/",
+  },
   {
     name: "T-shirt",
     description: "Web application that enables users to customize the t-shirt.",
@@ -215,11 +285,12 @@ const projects = [
     ],
     image: t,
     source_code_link: "https://github.com/AbhishekBhure/t-shirt",
+    live: "https://demoLink.com",
   },
   {
-    name: "NewsDaily",
+    name: "YouTube Clone",
     description:
-      "A comprehensive news website that lets user to read daily news article.",
+      "A comprehensive youtube clone that let's user to browse to the youtube videos. Using RapidApi.",
     tags: [
       {
         name: "reactjs",
@@ -234,12 +305,13 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "rapidApi",
         color: "red-text-gradient",
       },
     ],
-    image: newsapp,
-    source_code_link: "https://github.com/AbhishekBhure/WebNewsApp",
+    image: youtube,
+    source_code_link: "https://github.com/AbhishekBhure/youtube_clone2.0",
+    live: "https://youtube99.netlify.app/",
   },
 ];
 

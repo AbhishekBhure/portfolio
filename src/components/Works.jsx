@@ -6,11 +6,13 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { TypingText } from "./CustomText";
+import { Link } from "lucide-react";
 
 const ProjectCard = ({
   index,
   name,
   description,
+  live,
   tags,
   image,
   source_code_link,
@@ -48,6 +50,13 @@ const ProjectCard = ({
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <a
+            className="mt-2 text-white text-[14px] flex gap-1 align-center"
+            href={live}
+          >
+            {!live ? "" : "visit"}
+            {!live ? "" : <Link size="17px" />}
+          </a>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
@@ -78,7 +87,7 @@ const Works = () => {
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p
+        {/* <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           initial="hidden"
           whileInView="show"
@@ -92,7 +101,7 @@ const Works = () => {
           perferendis unde labore odio facere quos! Itaque eius officia ducimus
           error illum velit, id nobis architecto totam maxime. Sed nulla fugit
           sapiente voluptates cupiditate.
-        </motion.p>
+        </motion.p> */}
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (

@@ -6,6 +6,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { TypingText } from "./CustomText";
+import resume from "../assets/Abhishek_bhure.pdf";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -54,7 +55,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <div className="flex flex-row flex-wrap">
+      <div className="flex flex-row md:flex-col flex-wrap">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           initial="hidden"
@@ -72,21 +73,23 @@ const About = () => {
             ReactJs, NodeJs, ExpressJs, MongoDB.
           </span>{" "}
           I am dedicated to delivering visually stunning designs, efficient
-          coding, and seamless user experiences. <br />
-          What sets me apart is my ability to combine creativity with strategic
-          thinking. I approach each project with a keen eye for detail and a
-          deep understanding of my clients&apos;objectives. By collaborating
-          closely with my clients, I ensure that every deliverable reflects
-          their brand identity and resonates with their target audience. <br />I
-          invite you to explore my portfolio, where I showcase a curated
+          coding, and seamless user experiences.
+          <br />I invite you to explore my portfolio, where I showcase a curated
           selection of my work. Each project represents a unique challenge and
           an opportunity to push boundaries. I&apos;m always excited to take on
           new projects and collaborate with like-minded individuals. <br />
-          {/* Feel free to reach out to me at [Your Contact Information] to discuss
-        how we can work together to bring your ideas to life. Let&apos;s create
-        something extraordinary! */}
         </motion.p>
-        <motion.div className="max-w-3xl">hi</motion.div>
+        <motion.div className="max-w-3xl">
+          {" "}
+          <a
+            href={resume}
+            className="button mt-2"
+            download="abhishekBhure"
+            style={{ verticalAlign: "middle" }}
+          >
+            <span>Download</span>
+          </a>
+        </motion.div>
       </div>
 
       <div className="mt-20 flex items-center justify-center flex-wrap gap-10">
