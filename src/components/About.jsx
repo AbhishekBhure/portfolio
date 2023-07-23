@@ -6,7 +6,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { TypingText } from "./CustomText";
-import resume from "../assets/Abhishek_bhure.pdf";
+import resume from "../assets/AbhishekBhure.pdf";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
