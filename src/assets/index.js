@@ -45,7 +45,14 @@ import hru from "./hru.jpg";
 import pratik from "./pratik.jpg";
 import sanj from "./sanj.jpg";
 
+import social_github from "./social-github.svg";
+import social_linedIn from "./social-linkedin.svg";
+import social_twitter from "./social-twitter.svg";
+
 export {
+  social_github,
+  social_linedIn,
+  social_twitter,
   sanj,
   pratik,
   hru,

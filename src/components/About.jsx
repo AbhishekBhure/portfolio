@@ -7,6 +7,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { TypingText } from "./CustomText";
 import resume from "../assets/AbhishekBhure.pdf";
+import { socialMedia } from "../constants";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -53,6 +54,19 @@ const About = () => {
           <TypingText title="| Introduction" />
         </p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <div className="flex w-[125px]  px-1 justify-center items-center">
+          {socialMedia.map((social, name) => (
+            <span key={social.name} className="mr-3 h">
+              <a href={social.link} className="cursor-pointer">
+                <img
+                  src={social.icon}
+                  alt={`icon-${name}`}
+                  className="w-100% h-100%"
+                />
+              </a>
+            </span>
+          ))}
+        </div>
       </motion.div>
 
       <div className="flex flex-row md:flex-col flex-wrap">

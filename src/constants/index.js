@@ -31,6 +31,10 @@ import {
   hru,
   pratik,
   sanj,
+  github,
+  social_github,
+  social_linedIn,
+  social_twitter,
 } from "../assets";
 
 export const navLinks = [
@@ -45,6 +49,24 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+const socialMedia = [
+  {
+    name: "github",
+    link: "https://github.com/AbhishekBhure",
+    icon: social_github,
+  },
+  {
+    name: "linkedIn",
+    link: "https://www.linkedin.com/in/abhishek-bhure",
+    icon: social_linedIn,
+  },
+  {
+    name: "twitter",
+    link: "https://twitter.com/abhishekbhure_",
+    icon: social_twitter,
   },
 ];
 
@@ -315,4 +337,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socialMedia,
+};
