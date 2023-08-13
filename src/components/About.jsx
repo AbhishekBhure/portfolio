@@ -77,7 +77,7 @@ const About = () => {
           viewport={{ once: false, amount: 0.45 }}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Hello and welcome to my portfolio! I&apos;m{" "}
+          Hello and welcome to my portfolio I&apos;m{" "}
           <span className="text-white">Abhishek Bhure</span> , a passionate{" "}
           <span className="text-white">Full Stack Developer</span> with a drive
           for creating Web-related projects that make a meaningful impact. With
