@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import logoAB from "./logoAB.png";
 import logoAB2 from "./logoAB2.png";
 import backend from "./backend.png";
 import reactJS from "./reactJS.png";
@@ -25,20 +24,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import TheLoosersCompany from "./company/TheLoosersCompany.png";
+import Vsquare from "./company/Vsquare.png";
+import Edureka from "./company/edureka.png";
 
 import youtube from "./youtubeClone.png";
 import dhanvantari from "./dhanvantari.png";
 import al from "./al.png";
 import t from "./t.png";
-import carrent from "./carrent.png";
 import newsapp from "./newsapp.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import puzzle from "./memory-card-game.png";
 
 import test01 from "./test01.jpeg";
 import hru from "./hru.jpg";
@@ -61,7 +56,6 @@ export {
   test01,
   newsapp,
   logo,
-  logoAB,
   logoAB2,
   backend,
   reactJS,
@@ -85,14 +79,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   TheLoosersCompany,
+  Edureka,
+  Vsquare,
   al,
   t,
-  carrent,
-  jobit,
-  tripguide,
+  puzzle,
 };
