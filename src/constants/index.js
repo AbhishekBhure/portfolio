@@ -1,10 +1,7 @@
 import {
   mobile,
-  backend,
   reactJS,
   webicon,
-  creator,
-  web,
   newsapp,
   javascript,
   typescript,
@@ -18,20 +15,18 @@ import {
   git,
   figma,
   docker,
-  TheLoosersCompany,
-  carrent,
-  jobit,
-  tripguide,
+  Edureka,
+  Vsquare,
   threejs,
   al,
   t,
   test01,
   youtube,
   dhanvantari,
+  puzzle,
   hru,
   pratik,
   sanj,
-  github,
   social_github,
   social_linedIn,
   social_twitter,
@@ -143,11 +138,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Tutor - Full Stack (Mern)",
+    company_name: "Edureka, Belgaum",
+    icon: Edureka,
+    iconBg: "#0052cc",
+    date: "June 2023 - Oct 2023",
+    points: [
+      "Conducted tutoring sessions for a batch of 15-20 learners",
+      "Provided guidance on MERN stack development, helping students grasp key concepts",
+      "Assisted learners in hands-on coding exercise and projects, fostering practical skils",
+    ],
+  },
+  {
     title: "Full Stack (MERN) Developer",
-    company_name: "TheLoosersCompany",
-    icon: TheLoosersCompany,
+    company_name: "ServiceCart",
+    icon: Vsquare,
     iconBg: "#1d1836",
-    date: "April 2023 - Present",
+    date: "April 2023 - Sept 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -226,7 +233,6 @@ const projects = [
     ],
     image: dhanvantari,
     source_code_link: "https://github.com/thelooserscompany/altaj-website",
-    live: "https://demodhanvantari.com",
   },
   {
     name: "AL-Taj",
@@ -334,6 +340,32 @@ const projects = [
     image: youtube,
     source_code_link: "https://github.com/AbhishekBhure/youtube_clone2.0",
     live: "https://youtube99.netlify.app/",
+  },
+  {
+    name: "Puzzel Game",
+    description:
+      "An exciting Puzzel game that challenges the players to match the similar cards and earn points",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "materailUi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "useSound",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "array-shuffle",
+        color: "red-text-gradient",
+      },
+    ],
+    image: puzzle,
+    source_code_link: "https://github.com/AbhishekBhure/memory-card-game",
+    live: "https://puzzel-game.netlify.app",
   },
 ];
 
