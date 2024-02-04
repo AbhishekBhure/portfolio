@@ -28,11 +28,11 @@ import TheLoosersCompany from "./company/TheLoosersCompany.png";
 import Vsquare from "./company/Vsquare.png";
 import Edureka from "./company/edureka.png";
 
+import makeover from "./makeover.png";
+import snapspace from "./snapspace.png";
 import youtube from "./youtubeClone.png";
 import dhanvantari from "./dhanvantari.png";
 import al from "./al.png";
-import t from "./t.png";
-import newsapp from "./newsapp.png";
 import puzzle from "./memory-card-game.png";
 
 import test01 from "./test01.jpeg";
@@ -54,7 +54,6 @@ export {
   dhanvantari,
   youtube,
   test01,
-  newsapp,
   logo,
   logoAB2,
   backend,
@@ -83,6 +82,7 @@ export {
   Edureka,
   Vsquare,
   al,
-  t,
   puzzle,
+  snapspace,
+  makeover,
 };

@@ -2,7 +2,6 @@ import {
   mobile,
   reactJS,
   webicon,
-  newsapp,
   javascript,
   typescript,
   html,
@@ -19,7 +18,6 @@ import {
   Vsquare,
   threejs,
   al,
-  t,
   test01,
   youtube,
   dhanvantari,
@@ -30,6 +28,8 @@ import {
   social_github,
   social_linedIn,
   social_twitter,
+  snapspace,
+  makeover,
 } from "../assets";
 
 export const navLinks = [
@@ -261,59 +261,67 @@ const projects = [
   },
 
   {
-    name: "NewsDaily",
-    description:
-      "A comprehensive news website that let's user to read daily news article.",
+    name: "SnapSpace",
+    description: "A real estate project that elevates living with visinory.",
     tags: [
       {
         name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "expressjs",
         color: "pink-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "mongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
         color: "red-text-gradient",
       },
       {
-        name: "newsApi",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: newsapp,
-    source_code_link: "https://github.com/AbhishekBhure/WebNewsApp",
-    live: "https://newsdaily99.netlify.app/",
+    image: snapspace,
+    source_code_link: "https://github.com/AbhishekBhure/realEstate",
+    live: "https://snap-space.vercel.app/",
   },
   {
-    name: "T-shirt",
-    description: "Web application that enables users to customize the t-shirt.",
+    name: "MakeOver",
+    description:
+      "Makeover: Redefining beauty with an innovative makeup destination.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "threejs",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "farmarmotion",
+        name: "expressjs",
         color: "pink-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "mongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
         color: "red-text-gradient",
       },
     ],
-    image: t,
-    source_code_link: "https://github.com/AbhishekBhure/t-shirt",
-    live: "https://demoLink.com",
+    image: makeover,
+    source_code_link: "https://github.com/AbhishekBhure/makeover",
+    live: "https://make-overr.netlify.app/",
   },
   {
     name: "YouTube Clone",
